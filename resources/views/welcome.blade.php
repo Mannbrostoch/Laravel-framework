@@ -12,6 +12,38 @@
 
         <!-- Styles -->
         <style>
+            .header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 20px;
+                background: #fff;
+            }
+            .logo-page{
+                display: flex;
+                align-items: center;
+            }
+            .logo-page img{
+                width: 100px;
+                height: 100px;
+            }
+            .top-left {
+                display: flex;
+                align-items: center;
+            }
+            .top-left a {
+                padding: 0 10px;
+                text-decoration: none;
+                color: #333;
+            }
+            .top-left a:hover {
+                color: #000;
+            }
+            .top-left a.active {
+                color: #000;
+            }
+
+
             .wapper-container {
                 display: flex;
                 justify-content: center;
@@ -40,6 +72,21 @@
                 color: #666;
             }
         </style>
+
+            <div class="header">
+                <div class="logo-page">
+                    <img src="https://laravel.com/img/logomark.min.svg" alt="">
+                    <h1>Laravel</h1>      
+                </div>
+                <div class="top-left links">
+                    <a href="{{ url('/') }}">Home</a>
+                    <a href="{{ url('/') }}">About</a>
+                    <a href="{{ url('/') }}">Contact</a>
+                    <a href="{{ url('/') }}">Login</a>
+                    <a href="{{ url('/') }}">Register</a>
+                    <a href="{{ url('/') }}">Profile</a>
+                </div>
+            </div>
 
         <div class="wapper-container">
             <div class="box">
