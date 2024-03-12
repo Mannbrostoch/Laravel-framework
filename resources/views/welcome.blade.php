@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Frist Laravel Project</title>
+        <title>Laravel Project</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -80,20 +80,22 @@
                 </div>
                 <div class="top-left links">
                     <a href="{{ url('/') }}">Home</a>
-                    <a href="{{ url('/') }}">About</a>
-                    <a href="{{ url('/') }}">Contact</a>
+                    <a href="{{ url('/about') }}">About</a>
+                    <a href="{{ url('/contact') }}">Contact</a>
                     <a href="{{ url('/') }}">Login</a>
                     <a href="{{ url('/') }}">Register</a>
                     <a href="{{ url('/') }}">Profile</a>
                 </div>
             </div>
 
-        <div class="wapper-container">
-            <div class="box">
-                <div class="title">
-                    <h1>Welcome to Laravel</h1>
-                    <span>Frist Laravel Project</span>
+            <div class="wapper-container">
+                <div class="box">
+                    <div class="title">
+                        <h1>Welcome to Laravel</h1>
+                        <span>Frist Laravel Project</span>
+                    </div>
                 </div>
             </div>
-        </div>
+                        
+    </body>
 </html>
